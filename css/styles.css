@@ -6,14 +6,14 @@ body {
     display: none;
   } */
 
-.walrus-showing {
+.walrus-showing, .grover-near, .grover-far, #prince, #kiss-lyrics {
   display: none;
 }
 
-.clickable {
+.clickable, .near, .far, #frog {
   cursor: pointer;
   color: #0088cc;
 }
-.clickable:hover {
+.clickable:hover, .near:hover, .far:hover {
   text-decoration: underline;
 }
