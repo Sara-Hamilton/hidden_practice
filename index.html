@@ -3,7 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.2.3.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>hidden practice</title>
   </head>
@@ -11,8 +11,13 @@
     <div class="container">
       <div class="panel panel-default">
         <h1>Peek-a-boo</h1>
-        <img src="img/walrus.jpg" alt="picture of a walrus">
-        <p>Let's play peek-a-boo.  Click here to see the surprise!</p>
+        <div class="walrus-hidden">
+          <p>Let's play peek-a-boo. <span class="clickable"> Click here</span> to see the surprise!</p>
+        </div>
+        <div class="walrus-showing">
+          <img class="walrus-showing" src="img/walrus.jpg" alt="picture of a walrus">
+          <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
+        </div>
       </div>
       <div class="panel panel-default">
         <h1>Lesson from Grover</h1>
